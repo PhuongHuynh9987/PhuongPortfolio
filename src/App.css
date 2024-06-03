@@ -1,0 +1,60 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+:root {
+  --primary-color: rgb(40, 102, 156);
+  --secondary-color: rgba(130, 177, 235, 0.7);
+  --font-color: rgb(103, 101, 103);
+  --border-radius: 5px;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+h1, h2, h5 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--font-color);
+}
+
+.project {
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+.project-item {
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  min-width: 9rem;
+  max-height: 7rem;
+}
+
+
+.Ethereum {
+  line-height: 160%;
+  word-spacing: 0.3rem;
+}
+
+.Ethereum div img {
+  width: 40rem;
+}
+
+.span {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+
+.link-title {
+  color: var(--primary-color);
+  cursor: pointer;
+}
