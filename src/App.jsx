@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import {Route, Routes} from "react-router-dom";
 import './App.css'
-import IndexPage from './pages/IndexPage';
+import IndexPage from './pages/IndexPage.jsx';
 import DataAnalysis from './pages/DataAnalysis';
 import WebDevelopment from './pages/WebDevelopment';
 import Ethereum from './pages/Ethereum';
