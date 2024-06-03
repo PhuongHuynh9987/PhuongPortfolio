@@ -8,7 +8,7 @@ import Ethereum from './pages/Ethereum';
 
 function App() {
   return (
-    <Routes basename={import.meta.env.BASE_URL}>
+    <Routes>
       {/* <Route path="/" element={<Layout />}> */}
       
       <Route path="/" element={<IndexPage/>} >
