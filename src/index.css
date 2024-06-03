@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+      @apply text-2xl font-bold ;
+    }
+
+    h2 {
+      @apply text-xl;
+    }
+    
+    h3{
+      @apply text-lg font-bold;
+    }
+
+    h4 {
+        @apply text-sm italic mb-2;
+    }
+
+    h5 {
+        @apply font-medium text-sm;
+    }
+    
+    ol {
+      margin-left: 5rem;
+      font-weight: 300;
+      max-width: 75rem;
+    }
+
+    ul {
+      margin-left: 2rem;
+      font-weight: 300;
+      max-width: 75rem;
+    }
+
+    li {
+      list-style-type: disc;
+    }
+
+    p {
+      font-weight: 200;
+    }
+  }
+  
+  
