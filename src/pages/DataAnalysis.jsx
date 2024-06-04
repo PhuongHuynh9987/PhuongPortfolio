@@ -34,7 +34,7 @@ export default function DataAnalysis(){
                 </div>
                 <div className="flex items-center gap-2 justify-end">
                     <Link to={'/'}><h2><FontAwesomeIcon icon="fa-brands fa-github" /></h2></Link>
-                    <h5><a href="/Project_Report.pdf" target="_blank">Report</a></h5>
+                    <h5><a href="Project_Report.pdf" target="_blank">Report</a></h5>
                 </div>
            </div>
 
