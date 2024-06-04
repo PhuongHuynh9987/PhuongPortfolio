@@ -8,6 +8,7 @@ import K12 from "../assets/Transformation_y_residual_plot.png"
 import ethererum from "../assets/camcos.png"
 import Ethereum from "./Ethereum"
 import simulation from "../assets/simulation-1.png"
+import dendrogram from "../assets/dendrogram.png"
 
 export default function DataAnalysis(){
     const [click, setClick ] = useState(false);
@@ -21,7 +22,24 @@ export default function DataAnalysis(){
     }
     return (
         <div className="mb-20 grid gap-5 mx-16">
-            {/* Project 1 */}
+             {/* Project 4 */}
+           <div className="flex flex-col gap-2 project">
+                <h3>Predicting Heart Disease</h3>
+                <h4>Tools: R programming, Latex</h4>
+               
+                <div className="flex gap-4">
+                    <div className="project-item">
+                        <img src={dendrogram} alt="" />
+                    </div>
+                    <p className="h-24 overflow-scroll">A project from an Intro to Data Science course utilizing Logistic Regression and comparing Clustering method to predict a person's heart disease status.</p>
+                </div>
+                <div className="flex items-center gap-2 justify-end">
+                    <Link to={'/'}><h2><FontAwesomeIcon icon="fa-brands fa-github" /></h2></Link>
+                    <h5><a href="MATH_151_Project.pdf" target="_blank">Report</a></h5>
+                </div>
+           </div>
+
+            {/* Project 3 */}
            <div className="flex flex-col gap-2 project">
                 <h3>Which factors affect K-12 academic performance?</h3>
                 <h4>Tools: R programming</h4>
@@ -61,7 +79,7 @@ export default function DataAnalysis(){
                 )}
            </div>
            
-            {/* Project 3 */}
+            {/* Project 1 */}
             <div className="flex flex-col gap-2 project">
                     <h3>Simulation - Probability Theory</h3>
                     <h4>Tools: Python, Matplotlib, NumPy</h4>
