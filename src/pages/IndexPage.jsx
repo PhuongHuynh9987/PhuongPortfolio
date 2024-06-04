@@ -28,7 +28,7 @@ export default function IndexPage(){
                     </div>
                     <div className='flex justify-center gap-4 mt-4'>
                         <h5>
-                            <a href="Phuong Ohashi resume.pdf" target="_blank"> Resume </a> | 
+                            <a href="PhuongOhashi.pdf" target="_blank"> Resume </a> | 
                             <a href="https://www.linkedin.com/in/phuonghuynh9987/" target="_blank"> LinkedIn </a> | 
                             <a href="https://github.com/PhuongHuynh9987" target="_blank"> GitHub </a> |
                             <a href="https://public.tableau.com/app/profile/phuong.huynh5548/vizzes" target="_blank"> Tableau </a>
